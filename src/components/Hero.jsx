@@ -4,10 +4,11 @@ const Hero = () => {
   return (
     <header className='w-full flex justify-center items-center flex-col overflow-x-hidden'>
       <nav className='flex justify-between items-center w-10/12 xl:w-full mb-10 pt-3'>
-        <img 
+        {/* <img 
           src={logo} 
           alt='sumz_logo' 
-          className='w-28 object-contain' />
+          className='w-28 object-contain' /> */}
+          <p className='w-28 text-4xl font-bold'>Sumzo</p>
 
         <button 
           type='button' 
